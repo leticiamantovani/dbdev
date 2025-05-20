@@ -1,0 +1,10 @@
+
+services:
+  db-dev:
+    container_name: db-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes: [/var/run/docker.sock:/var/run/docker.sock]
+    
+     
