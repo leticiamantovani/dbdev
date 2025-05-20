@@ -1,5 +1,5 @@
 import pytest
-from src.docker_manager import DockerManager
+from dbdev.docker_manager import DockerManager
 
 def test_generate_password():
     manager = DockerManager()
